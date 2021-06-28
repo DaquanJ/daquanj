@@ -1,0 +1,22 @@
+.title {
+    display: grid;
+    grid-template-columns: 30% 50% 30%;
+    justify-content: center;
+}
+
+.title hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #991600, #ccc, #333);
+}
+
+.title h1 {
+    color: #ccc;
+}
+
+.about p {
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(153, 22, 0, 0.8);
+}
