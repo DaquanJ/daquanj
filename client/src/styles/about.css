@@ -1,6 +1,6 @@
 .title {
     display: grid;
-    grid-template-columns: 30% 50% 30%;
+    grid-template-columns: 30% 30% 30%;
     justify-content: center;
 }
 
@@ -15,8 +15,21 @@
     color: #ccc;
 }
 
+.paragraphs {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    row-gap: 10%;
+    width: 75%;
+}
+
+.paragraphs a {
+    text-decoration: none;
+    color: #991600;
+}
+
 .about p {
     font-weight: bold;
     font-size: larger;
-    color: rgb(153, 22, 0, 0.8);
+    color: #333;
+    text-align: left;
 }
