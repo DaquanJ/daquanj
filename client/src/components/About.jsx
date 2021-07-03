@@ -10,9 +10,9 @@ const About = () => {
                 <hr />
             </div>
             <div className='paragraphs' >
+                <p id="name"> Hi, I'm Da'Quan 👋  </p>
                 <p>
-                    Hello 👋 <br />
-                    My name is Daquan Johnson, a software engineer based in New York, NY.
+                    A software engineer based in New York, NY. <br />
                     I enjoy working in and contributing to the digital space by way of web developement!
                     I'm a front end focused developer with experience in modern backend technologies.
                 </p>
@@ -21,7 +21,8 @@ const About = () => {
                     I learned about <a href="https://perscholas.org/courses/" rel="noreferrer" target="_blank">Per Scholas </a>, a non-profit technical bootcamp and
                     In June of 2020 I completed their 15 week software engineering course. Giving myself an opportunity to materialize that interest.
                     Shortly after graduating I was invited back to join the new co-horts as an associate Instructor.
-                    Through pair programming, debugging, facilitating course material and project building, I have helped to give others a shot at tech and continue to further my skillset as a developer.
+                    Through pair programming, debugging, facilitating course material and project building,
+                    I have helped to give others a shot at tech and continue to further my skillset as a developer.
                 </p>
             </div>
         </div>

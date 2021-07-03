@@ -15,21 +15,33 @@
     color: #ccc;
 }
 
+#name {
+    font-size: xxx-large;
+    font-weight: bold;
+    color: #991600;
+
+}
+
 .paragraphs {
     display: grid;
     grid-template-rows: 50% 50%;
-    row-gap: 10%;
+    row-gap: 5%;
     width: 75%;
 }
 
 .paragraphs a {
     text-decoration: none;
     color: #991600;
+    transition: .2s ease-in-out;
+}
+
+.paragraphs a:hover {
+    color: #ccc;
 }
 
 .about p {
-    font-weight: bold;
     font-size: larger;
+    font-weight: bold;
     color: #333;
     text-align: left;
 }
